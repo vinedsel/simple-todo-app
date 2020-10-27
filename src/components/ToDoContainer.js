@@ -25,8 +25,8 @@ class ToDoContainer extends React.Component {
         <div>
             <ToDosList todos={this.state.todos} />
         </div>
-    );
+    )
   }
-};
+}
 
-export default ToDoContainer;
+export default ToDoContainer
