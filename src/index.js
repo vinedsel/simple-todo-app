@@ -1,8 +1,8 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-//Components
+// Components
 
-import ToDoContainer from "./components/ToDoContainer";
+import ToDoContainer from './components/ToDoContainer';
 
-ReactDOM.render(<ToDoContainer />, document.getElementById("root"));
+ReactDOM.render(<ToDoContainer />, document.getElementById('root'));
