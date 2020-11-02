@@ -23,15 +23,15 @@ class ToDoContainer extends React.Component {
   }
 
 
-    render() {
-      return (
-        <div>
-            {this.state.todos.map(todo => (
-              <li>{todo.title}</li>
-            ))}
-        </div>
-    )
+  render() {
+    return (
+      <div>
+        {this.state.todos.map((todo) => (
+          <li>{todo.title}</li>
+        ))}
+      </div>
+    );
   }
-};
+}
 
 export default ToDoContainer;
