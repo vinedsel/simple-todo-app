@@ -71,7 +71,7 @@ class ToDoContainer extends React.Component {
         />
       </div>
     );
-  }
+  };
 }
 
 export default ToDoContainer;
