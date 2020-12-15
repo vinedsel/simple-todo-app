@@ -21,7 +21,7 @@ handleSubmit = e => {
 
     render() {
         return (
-            <form onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className="form-container">
                 <input type="text" 
                        className="input-text" 
                        placeholder="Add Todo..." 
@@ -29,7 +29,7 @@ handleSubmit = e => {
                        name="title"
                        onChange={this.onChange} 
                 />
-                <input type="submit" 
+                <input type="submit"
                        className="input-submit" 
                        value="Submit" 
                 />

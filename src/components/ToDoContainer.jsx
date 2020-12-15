@@ -61,7 +61,7 @@ class ToDoContainer extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="container">
         <Header />
         <InputTodo addTodoProps={this.addTodoItem} />
         <ToDosList 
