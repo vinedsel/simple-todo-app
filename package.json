@@ -2,7 +2,7 @@
   "name": "simple-todo-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.vinedsel.io/simple-todo-app",
+  "homepage": "https://vinedsel.github.io/simple-todo-app",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
