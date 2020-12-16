@@ -7,7 +7,7 @@ import ToDoContainer from './components/ToDoContainer';
 
 // CSS
 
- import './App.css';
+import './App.css';
 
 
 ReactDOM.render(<ToDoContainer />, document.getElementById('root'));
