@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/vinedsel/simple-todo-app/static/css/main.50078e09.chunk.css",
+    "main.js": "/vinedsel/simple-todo-app/static/js/main.d76fbc4a.chunk.js",
+    "main.js.map": "/vinedsel/simple-todo-app/static/js/main.d76fbc4a.chunk.js.map",
+    "runtime-main.js": "/vinedsel/simple-todo-app/static/js/runtime-main.1ec47a90.js",
+    "runtime-main.js.map": "/vinedsel/simple-todo-app/static/js/runtime-main.1ec47a90.js.map",
+    "static/js/2.fe9e42ab.chunk.js": "/vinedsel/simple-todo-app/static/js/2.fe9e42ab.chunk.js",
+    "static/js/2.fe9e42ab.chunk.js.map": "/vinedsel/simple-todo-app/static/js/2.fe9e42ab.chunk.js.map",
+    "index.html": "/vinedsel/simple-todo-app/index.html",
+    "precache-manifest.2892a2758521e927095b56eb0aa89a78.js": "/vinedsel/simple-todo-app/precache-manifest.2892a2758521e927095b56eb0aa89a78.js",
+    "service-worker.js": "/vinedsel/simple-todo-app/service-worker.js",
+    "static/css/main.50078e09.chunk.css.map": "/vinedsel/simple-todo-app/static/css/main.50078e09.chunk.css.map",
+    "static/js/2.fe9e42ab.chunk.js.LICENSE.txt": "/vinedsel/simple-todo-app/static/js/2.fe9e42ab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1ec47a90.js",
+    "static/js/2.fe9e42ab.chunk.js",
+    "static/css/main.50078e09.chunk.css",
+    "static/js/main.d76fbc4a.chunk.js"
+  ]
+}
