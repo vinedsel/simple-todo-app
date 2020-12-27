@@ -2,7 +2,7 @@ import React from 'react';
 import ToDosList from './ToDosList';
 import Header from './Header';
 import InputTodo from './InputTodo';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 import axios from 'axios';
  
 
@@ -26,13 +26,17 @@ class ToDoContainer extends React.Component {
   };
 
   delTodo = id => {
-    this.setState({
-      todos: [
-        ...this.state.todos.filter(todo => {
-          return todo.id !==id;
+    axios
+      .delete(`https://jsonplaceholder.typicode.com/todos/${id}`)
+      .then(response =>
+        this.setState({
+          todos: [
+            ...this.state.todos.filter(todo => {
+              return todo.id !== id
+            }),
+          ],
         })
-      ]
-    });
+      );
   };
 
   addTodoItem = title => {
